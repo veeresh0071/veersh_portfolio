@@ -14,7 +14,7 @@ const Certifications = () => {
       date: 'Completed 2024',
       image: '/ml.png',
       description: 'Comprehensive machine learning course covering supervised and unsupervised learning, neural networks, and best practices.',
-      skills: ['ML Algorithms', 'Neural Networks', 'Python', 'TensorFlow'],
+      skills: ['ML Algorithms', 'Neural Networks', 'Python', 'Deep Learning'],
       category: 'AI/ML',
       verified: true,
       credentialId: 'ML-2024-001'

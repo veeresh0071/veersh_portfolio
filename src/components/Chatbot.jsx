@@ -228,7 +228,7 @@ const Chatbot = () => {
     } else if (message.includes('who are you') || message.includes('your name')) {
       return "I'm SIFRA - Smart Interactive Female Response Assistant! I help visitors learn about Veeresh's skills, projects, and experience. How can I assist you?";
     } else if (message.includes('skills') || message.includes('technologies') || message.includes('tech stack')) {
-      return "SIFRA here! Veeresh is skilled in:\n\n🔹 Data Analytics & Visualization: Python, SQL, Pandas, NumPy, Power BI, Tableau\n🔹 AI & Machine Learning: TensorFlow, PyTorch, Scikit-Learn, Keras\n🔹 Full-Stack Development: React.js, Node.js, Express.js, MongoDB\n🔹 Tools: Git, GitHub, VS Code, Jupyter, AWS, Docker\n\nWould you like to know more about any specific skill?";
+      return "SIFRA here! Veeresh is skilled in:\n\n🔹 Data Analytics & Visualization: Python, SQL, Pandas, NumPy, Power BI, Tableau\n🔹 AI & Machine Learning: Deep Learning, Generative AI, Scikit-Learn, Keras\n🔹 Full-Stack Development: React.js, Node.js, Express.js, MongoDB\n🔹 Tools: Git, GitHub, VS Code, Jupyter, AWS, Docker\n\nWould you like to know more about any specific skill?";
     } else if (message.includes('projects') || message.includes('work')) {
       return "SIFRA here! Here are Veeresh's top projects:\n\n🌾 Smart Agri Vision - 98% accuracy crop prediction\n🌿 Plant Disease Analysis - CNN-based detection with 2K+ downloads\n💻 UptoSkilla Web App - Full-stack MERN application\n🏠 Housing Price Predictor - AI-powered real estate advisor\n🤖 AI Resume Builder - Intelligent resume creation tool\n\nWhich project interests you?";
     } else if (message.includes('experience') || message.includes('internship')) {

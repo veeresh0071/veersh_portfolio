@@ -68,12 +68,12 @@ const Skills = () => {
           icon: 'https://img.icons8.com/fluency/96/deep-learning.png',
         },
         { 
-          name: 'TensorFlow', 
-          icon: 'https://img.icons8.com/color/96/tensorflow.png',
+          name: 'Deep Learning', 
+          icon: 'https://img.icons8.com/fluency/96/deep-learning.png',
         },
         { 
-          name: 'PyTorch', 
-          icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg',
+          name: 'Generative AI', 
+          icon: 'https://img.icons8.com/color/96/artificial-intelligence.png',
         },
         { 
           name: 'Scikit-Learn', 
