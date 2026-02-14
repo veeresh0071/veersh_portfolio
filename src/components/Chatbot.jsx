@@ -232,7 +232,7 @@ const Chatbot = () => {
     } else if (message.includes('projects') || message.includes('work')) {
       return "SIFRA here! Here are Veeresh's top projects:\n\n🌾 Smart Agri Vision - 98% accuracy crop prediction\n🌿 Plant Disease Analysis - CNN-based detection with 2K+ downloads\n💻 UptoSkilla Web App - Full-stack MERN application\n🏠 Housing Price Predictor - AI-powered real estate advisor\n🤖 AI Resume Builder - Intelligent resume creation tool\n\nWhich project interests you?";
     } else if (message.includes('experience') || message.includes('internship')) {
-      return "SIFRA here! Veeresh has completed 4+ internships:\n\n📊 BCG X Company - Data Science\n📈 Labmentix - Data Analytics\n💻 UPTOSKILLS - MERN Full Stack\n☁️ AWS - Solutions Architecture\n\nHe has hands-on experience in data analytics, ML modeling, and cloud architecture!";
+      return "SIFRA here! Veeresh has completed 4+ internships:\n\n🤖 WizzyBox Pvt Ltd - AI Engineering (Current)\n📊 BCG X Company - Data Science\n📈 Labmentix - Data Analytics\n💻 UPTOSKILLS - MERN Full Stack\n\nHe has hands-on experience in AI/ML, data analytics, and full-stack development!";
     } else if (message.includes('education') || message.includes('college')) {
       return "SIFRA here! 🎓 Education:\n\nB.E. in AI and Data Science\nGovernment Engineering College, Nargund\nCGPA: 7.8/10\nDuration: Sep 2022 - May 2026";
     } else if (message.includes('contact') || message.includes('email') || message.includes('reach')) {

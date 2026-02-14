@@ -27,7 +27,7 @@ const Navbar = () => {
       setScrolled(currentScrollY > 50);
 
       // Active section detection
-      const sections = ['home', 'about', 'projects', 'skills', 'certifications', 'contact'];
+      const sections = ['home', 'about', 'experience', 'projects', 'skills', 'certifications', 'contact'];
       const current = sections.find(section => {
         const element = document.getElementById(section);
         if (element) {
@@ -54,6 +54,7 @@ const Navbar = () => {
   const menuItems = [
     { id: 'home', label: 'Home' },
     { id: 'about', label: 'About' },
+    { id: 'experience', label: 'Experience' },
     { id: 'projects', label: 'Projects' },
     { id: 'skills', label: 'Skills' },
     { id: 'certifications', label: 'Certifications' },
