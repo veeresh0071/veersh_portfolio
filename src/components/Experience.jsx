@@ -154,7 +154,7 @@ const Experience = () => {
       role: "AI Engineering Intern",
       company: "WizzyBox Pvt Ltd",
       duration: "Jan 2026 - Present",
-      location: "Remote",
+      location: "In-Office",
       highlights: [
         "Developing and deploying AI-powered solutions using machine learning and deep learning frameworks",
         "Building intelligent systems and automation tools to enhance business processes",
@@ -162,7 +162,7 @@ const Experience = () => {
         "Collaborating with cross-functional teams to integrate AI models into production environments",
         "Optimizing model performance and implementing best practices for AI/ML workflows"
       ],
-      technologies: ["Python", "TensorFlow", "PyTorch", "NLP", "Computer Vision", "AI/ML"]
+      technologies: ["Python", "AI", "Generative AI", "ML/DL", "NLP"]
     },
     {
       role: "Data Science Job Simulation Virtual Internship",
@@ -203,20 +203,6 @@ const Experience = () => {
         "Worked with Git and GitHub for version control, branching, and collaborative development"
       ],
       technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Git", "GitHub"]
-    },
-    {
-      role: "Solutions Architecture Job Simulation Internship",
-      company: "AWS",
-      duration: "June 2025",
-      location: "Remote",
-      highlights: [
-        "Assisted in designing and reviewing cloud architectures using AWS services (EC2, S3, IAM, VPC, Lambda, RDS)",
-        "Implemented cost-optimized, secure, and fault-tolerant solutions following AWS Well-Architected Framework principles",
-        "Deployed sample applications using AWS CloudFormation, managed resources, and performed hands-on tasks in real AWS environments",
-        "Configured and tested IAM roles, security groups, VPC subnets, and routing for secure and efficient network communication",
-        "Conducted performance monitoring, troubleshooting, and optimization using CloudWatch, CloudTrail, and AWS best practices"
-      ],
-      technologies: ["AWS", "EC2", "S3", "Lambda", "CloudFormation", "IAM", "VPC"]
     }
   ];
 
