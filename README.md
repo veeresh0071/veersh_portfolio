@@ -55,7 +55,6 @@ This portfolio showcases my expertise in:
 
 - **Email:** pujarveeresh7@gmail.com
 - **Phone:** +91 7483112442 / 7483512442
-- **Website:** [krishnacodes.in](https://krishnacodes.in)
 - **LinkedIn:** [veeresh-pujar-94733b334](https://www.linkedin.com/in/veeresh-pujar-94733b334/)
 - **GitHub:** [veeresh0071](https://github.com/veeresh0071)
 
