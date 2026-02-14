@@ -7,7 +7,6 @@ import './Skills.css';
 gsap.registerPlugin(ScrollTrigger);
 
 const Skills = () => {
-  const [hoveredSkill, setHoveredSkill] = useState(null);
   const [activeCard, setActiveCard] = useState(0);
   const containerRef = useRef(null);
   const cardsRef = useRef([]);
@@ -265,8 +264,6 @@ const Skills = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: skillIdx * 0.05, duration: 0.5 }}
-                            onMouseEnter={() => setHoveredSkill(`${index}-${skillIdx}`)}
-                            onMouseLeave={() => setHoveredSkill(null)}
                             whileHover={{ scale: 1.15, y: -8 }}
                           >
                             <div className="skill-icon-wrapper">

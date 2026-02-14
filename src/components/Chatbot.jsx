@@ -20,7 +20,6 @@ const Chatbot = () => {
   const [conversationHistory, setConversationHistory] = useState([]);
   const [showHistory, setShowHistory] = useState(false);
   const [messageCount, setMessageCount] = useState(0);
-  const [voices, setVoices] = useState([]);
   const messagesEndRef = useRef(null);
   const recognitionRef = useRef(null);
   const fileInputRef = useRef(null);
@@ -90,24 +89,6 @@ const Chatbot = () => {
       recognitionRef.current.onend = () => {
         setIsListening(false);
       };
-    }
-  }, []);
-
-  // Load voices
-  useEffect(() => {
-    const loadVoices = () => {
-      const availableVoices = window.speechSynthesis.getVoices();
-      setVoices(availableVoices);
-      console.log('Available voices:', availableVoices.map(v => v.name));
-    };
-
-    if ('speechSynthesis' in window) {
-      loadVoices();
-      
-      // Chrome loads voices asynchronously
-      if (window.speechSynthesis.onvoiceschanged !== undefined) {
-        window.speechSynthesis.onvoiceschanged = loadVoices;
-      }
     }
   }, []);
 
