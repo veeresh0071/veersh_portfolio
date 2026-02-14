@@ -65,5 +65,4 @@ This portfolio showcases my expertise in:
 - Desktop: > 1024px
 
 ## License
-
-MIT
+VEERESH PUJAR
