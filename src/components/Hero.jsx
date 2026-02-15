@@ -46,8 +46,8 @@ const Hero = () => {
 
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/VEERESH_PUJAR.pdf';
-    link.download = 'VEERESH_PUJAR.pdf';
+    link.href = '/VEERESH PUJAR.pdf';
+    link.download = 'VEERESH PUJAR.pdf';
     link.target = '_blank';
     document.body.appendChild(link);
     link.click();
@@ -56,8 +56,8 @@ const Hero = () => {
 
   const handleDownloadResume2 = () => {
     const link = document.createElement('a');
-    link.href = '/VEERESH_PUJAR_2.pdf';
-    link.download = 'VEERESH_PUJAR_2.pdf';
+    link.href = '/VEERESH  PUJAR 2.pdf';
+    link.download = 'VEERESH  PUJAR 2.pdf';
     link.target = '_blank';
     document.body.appendChild(link);
     link.click();
