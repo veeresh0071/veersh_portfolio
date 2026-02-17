@@ -57,6 +57,7 @@ This portfolio showcases my expertise in:
 - **Phone:** +91 7483112442 / 7483512442
 - **LinkedIn:** [veeresh-pujar-94733b334](https://www.linkedin.com/in/veeresh-pujar-94733b334/)
 - **GitHub:** [veeresh0071](https://github.com/veeresh0071)
+- **portfolio:**[veersh_portfolio](https://veersh-portfolio.vercel.app/)
 
 ## Responsive Breakpoints
 
